@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    font-family: Inter;
+    
+    }
+    /* .fiber-sign-up, .main-title-sign-up {
+        margin: 2rem 0 ;
+        text-align: left;
+    } */
+h1{
+    font-size: 36px;
+    line-height: 44px;
+
+}
+h2{
+    font-size: 20px;
+    line-height: 24px;
+}
+.sign-up-container {
+    display: flex;
+    width: 100%;
+  min-height: 100vh;
+
+}
+.sign-up-info {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  
+  justify-content: center;
+}
+
+.sign-up-info form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    justify-content: center;
+    
+}
+.right-side-sign-up {
+    width: 50%;
+    padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #4D13D1;
+  color: #f4f4f4;
+  justify-content: center;
+
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.right-side h3 {
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+.right-side p {
+    font-size: 18px;
+line-height: 27px;
+color: #E5DDFD;
+width: 450px;
+margin-top: 0.5rem;
+}
+img {
+    display: block;
+    width: 80%;
+    margin-bottom: 1.5rem;
+   
+
+    
+}
+h1,h2 {
+text-align: left;
+}
+form {
+    margin: 2rem 0 ;
+}
+form p {
+    font-size: 17px;
+line-height: 22px;
+margin-bottom:0.6rem
+}
+form input {
+    
+    padding: 0.65rem 0.5rem;
+}
+.check a {
+    color: #4D13D1;
+}
+
+.form-ending {
+    margin-top: 1rem;
+    text-align: center;
+}
+.main-title-sign-up {
+    margin-bottom: 2rem;
+}
+label {
+    margin-bottom: 0.3rem;
+    font-size: 17px;
+line-height: 22px;
+}
+input {
+    margin-bottom:1.5rem;
+    border: 1px solid #DADADA;
+    
+    font-size: 16px;
+line-height: 22px;
+}
+.checkbox {
+    margin-right: 0.5rem;
+}
+.signupbtn {
+   width: auto;
+   padding: 1rem 0;
+   color: #f4f4f4;
+   background: #4D13D1;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+line-height: 22px;
+}
+
+.form-ending {
+text-decoration: none;
+font-size: 18px;
+line-height: 22px;
+}
+.form-ending .ending {
+    text-decoration: none;
+    color: #4D13D1;
+}

@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header, main {
+    background: #FBF8F3;
+    
+}
+main {
+    height: 88vh;
+}
+ul, li {
+    list-style-type: none;
+    
+}
+
+p, h1, h2, h3, li, a {
+    font-family: Inter;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1260px;
+    
+  margin: auto;
+  overflow: hidden;
+}
+
+.main-nav h2, .navbar-middle li, .navbar-end li {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+h2, .navbar-end li {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    
+}
+
+
+
+.hero-content {
+    margin: 0.5rem 0;
+}
+.hero-container {
+    display: flex;
+    align-items: center;
+    
+
+}
+.hero-img {
+    width: 80%;
+    height:auto;
+    
+}
+
+.main-nav {
+    padding-top:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+}
+.main-nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main-nav li {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+.navbar-middle li:hover {
+font-weight: bold;
+}
+.sign-in:hover {
+    color: rgb(109, 108, 108);
+}
+.btn-primary {
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-color:#4D13D1;
+    color: #FBF8F3;
+    padding: 0.8rem 2rem; 
+    list-style-type: none;
+    text-decoration: none;
+}
+.navbar-end .aa{
+    color: #f2f2f2 !important;
+}
+.btn-primary:hover {
+    background-color: #5927cfce;
+}
+.primary {
+    padding: 1rem 2rem;
+}
+.rating-img {
+    display: flex;
+    margin-right: 0.8rem;
+    
+}
+.rating-img img {
+    padding-right: 0.3rem;
+    
+}
+
+.rating {
+    display: flex;
+    margin-bottom: 0.8rem;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero-extra-info ul  {
+    display: flex;
+    margin: 1rem 0;
+}
+.hero-extra-info li {
+    margin-right: 1rem;
+    align-items: center;
+}
+.hero-ticks {
+    display: flex;
+    
+}
+.hero-ticks img {
+    margin-right:  0.5rem;
+}
+.hero-heading {
+    font-size: 56px;
+    line-height: 68px;
+    font-weight: bold;
+}
+.hero-paragraph {
+font-size: 18px;
+line-height: 27px;
+padding: 1rem 0rem;
+}
+.hero-btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero-view-example {
+    color: #4D13D1;
+    
+    font-weight: bold;
+    text-decoration-line: underline;
+    font-size: 18px
+}
+.hero-view-example:hover {
+    color: #6d2effce;
+   
+}
+
+.hero-btn a {
+    margin-right: 2.5rem;
+    font-weight:bold;
+}
+.about-info {
+    height: 100vh;
+    max-width: 1260px;
+    margin: auto;
+    overflow: hidden;
+}
+.about-container {
+    margin-top: 50px;
+}
+
+  .about-why {
+    color: #4D13D1;
+    Font-size: 18px;
+    line-height: 22px;
+    line-height: 100%;
+    
+    Vertical-align: Top;
+    margin-bottom:1rem;
+ }
+.about-title {
+    Font-size: 36px;
+    line-height: 44px;
+    line-height: 100%;
+    text-align: left;
+    Vertical-align: Top;
+    margin-bottom:2rem;
+    width: 512px;
+    
+}
+.about-features {
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    text-align: left;
+}
+.about-features-section {
+    margin-right: 1rem;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about-features-section h4 {
+    margin: 0.8rem 0;
+}
+.about-features-section p {
+    
+    font-size: 18px;
+    line-height: 27px;
+    color: #4F4F4F;
+}
+.baner {
+  color: #fff;
+  max-width: 120rem;
+  /* margin: 2rem auto; */
+margin: 2rem 0;
+}
+.baner-container {
+    background: #4D13D1;
+    position: absolute;
+    width: 1200px;
+    height: 479px;
+    border-radius: 5px;
+    
+}
+.baner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baner-info {
+    max-width: 420px;
+    height: 210px;
+    text-align: left;
+    margin: 0 2.5rem;
+    
+
+}
+.baner-info h2 {
+    font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+}
+.baner-info p {
+  
+    font-size: 18px;
+    line-height: 27px;
+    color: #E5DDFD;
+}
+.baner-info .btn-white {
+    
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-color:#fff;
+    color: #4D13D1;
+    padding: 0.8rem 2rem; 
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+
+}
+.baner-info .btn-white:hover {
+    background-color: #f3f3f3;
+}
+.baner-img {
+    
+    width: 100%;
+    max-width: 60rem;
+
+}
+.baner-img img {
+    width: 577px;
+    padding-top: 3rem;
+    margin-left:5rem;
+}
+.container-testimonials {
+    height: 100%;
+    max-width: 1388px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.content-header {
+    display: flex;
+    
+}
+.testimony-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    justify-content: center;
+    padding-left: 1rem;
+}
+.content-testimony {
+    margin-top:1rem;
+}
+.testimonials {
+    margin: 1rem 0;
+}
+.testimonial{
+    display: block;
+    border: 1px solid #f2f2f2;
+    width:100%;
+    max-width:27rem;
+    padding:1.8rem;
+    border-radius: 0.5rem;
+    height: 300px ;
+}
+.testimonial-button {
+    width:100%;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+  padding: 1.3rem 1.5rem;
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+}
+.testimonial-button a {
+    color: #4D13D1;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+.testimonial-button:hover {
+    border-color:#6d2effce;
+    color: #6d2effce;
+    cursor: pointer;
+}
+.testimony-info a{
+ text-decoration: none;
+ font-weight: bold;
+ color: #4D13D1;
+}
+.testimony-info a:hover {
+    border-bottom:  1px solid #4D13D1;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background: #FBF8F3;
+    height: 300px;
+    padding: 66px 150px ;
+}
+.footer-main {
+    width: 381px;
+    margin-right:0.5rem;
+    padding-right:1rem;
+    line-height: 27px;
+}
+.footer-sitemap {
+    display: flex;
+    flex-direction: column;
+    padding-right:75px;
+}
+.resources {
+    display: flex;
+    flex-direction: column;
+    padding-right:75px;
+}
+.company{
+display: flex;
+    flex-direction: column;
+    padding-right:75px;
+}
+.portfolios {
+    display: flex;
+    flex-direction: column;
+    padding-right:40px;
+}
+footer a {
+    text-decoration: none;
+    color: #4F4F4F;
+    padding: 0.3rem 0;
+}
+footer h3 {
+    margin-bottom: 0.8rem;
+}
+.footer-main-last {
+    margin-top: 3rem;
+}
+footer a:hover {
+    font-weight: bold;
+}
